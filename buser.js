@@ -132,14 +132,14 @@ if (magicJS.read(blackKey)) {
             for (let ii = 0; ii < obj["data"]["sections_v2"].length; ii++) {
               if(obj.data.sections_v2[ii].title=='推荐服务'||obj.data.sections_v2[ii].title=='推薦服務'){
                 obj.data.sections_v2[ii].items[0].title='\u516C\u773E\u865F';
-                obj.data.sections_v2[ii].items[1].title='\u0070\u0073\u0031\u0038\u0079\u0063\u0068\u006f\u006b\u0065\u0072';
+                obj.data.sections_v2[ii].items[1].title='\u0042\u0069\u006c\u0069\u0042\u0069\u006c\u0069\u6211\u5f00\u7684';
               }
               if(obj.data.sections_v2[ii].title=='更多服務'||obj.data.sections_v2[ii].title=='更多服务'){
                   if(obj.data.sections_v2[ii].items[0].id==500){
                       obj.data.sections_v2[ii].items[0].title='\u516C\u773E\u865F';
                   }
                   if(obj.data.sections_v2[ii].items[1].id==501){
-                      obj.data.sections_v2[ii].items[1].title='\u0070\u0073\u0031\u0038\u0079\u0063\u0068\u006f\u006b\u0065\u0072';
+                      obj.data.sections_v2[ii].items[1].title='\u0042\u0069\u006c\u0069\u0042\u0069\u006c\u0069\u6211\u5f00\u7684';
                   }
               }
               if(obj.data.sections_v2[ii].title=='创作中心'||obj.data.sections_v2[ii].title=='創作中心'){
